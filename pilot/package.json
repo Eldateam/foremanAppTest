@@ -1,28 +1,16 @@
 {
-  "name": "foreman",
-  "version": "1.0.0",
-  "description": "",
+  "name": "foreman-app",
+  "version": "1.0.2",
+  "description": "foremanAppDemo",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "jest"
+    "test": "jest ./"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aedo-ai/foreman.git"
-  },
-  "author": "Daniel Tura",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aedo-ai/foreman/issues"
-  },
-  "homepage": "https://github.com/aedo-ai/foreman#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "jest": "^24.9.0",
-    "nodemon": "^1.19.3"
-  },
-  "devDependencies": {
-    "eslint": "^6.4.0"
+    "jest": "^24.9.0"
   }
 }
